@@ -22,8 +22,8 @@ $ git clone thisrepo
 $ npm install
 
 ## extract chromedriver_win32.zip
-from: cucumber-boilerplate/selenium_drivers/chromedriver_win32.zip
-into: cucumber-boilerplate/selenium_drivers/chromedriver.exe
+- from: cucumber-boilerplate/selenium_drivers/chromedriver_win32.zip
+- into: cucumber-boilerplate/selenium_drivers/chromedriver.exe
 
 ## run
 $ npm run test
@@ -35,12 +35,14 @@ $ cd myproject
 
 ## Clone cucumber boilerplate from location
 or download and extract it if you don't have access over network
+
 $ git clone https://github.com/webdriverio/cucumber-boilerplate.git
 
 ## Download java selenium server
 https://docs.seleniumhq.org/download/
 selenium-server-standalone-3.11.0.jar
 put into
+
 ./myproject/cucumber-boilerplate/selenium_drivers/selenium-server-standalone-3.11.0.jar
 
 ## Download chrome driver here
@@ -48,6 +50,7 @@ https://sites.google.com/a/chromium.org/chromedriver/home
 chromedriver_win32.zip
 put into
 ./myproject/cucumber-boilerplate/selenium_drivers/chromedriver_win32.zip
+
 extract to
 ./myproject/cucumber-boilerplate/selenium_drivers/chromedriver.exe
 
