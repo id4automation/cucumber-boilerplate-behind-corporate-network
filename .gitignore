@@ -1,0 +1,6 @@
+# Logs
+*.log
+node_modules
+cucumber-boilerplate/errorShots
+cucumber-boilerplate/selenium_drivers/chromedriver.exe
+cucumber-boilerplate/coverage
